@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4851074493447934}
   - component: {fileID: 33086167954655496}
   - component: {fileID: 23921364131507822}
+  - component: {fileID: 64289792341778126}
   m_Layer: 0
   m_Name: bobs shield
   m_TagString: Untagged
@@ -82,4 +83,18 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1297786901626588}
+  m_Mesh: {fileID: 4300000, guid: bc9898a9f9215aa408ec6dd388474c91, type: 3}
+--- !u!64 &64289792341778126
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297786901626588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: bc9898a9f9215aa408ec6dd388474c91, type: 3}
